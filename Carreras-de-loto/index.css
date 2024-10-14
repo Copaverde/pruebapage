@@ -1,0 +1,42 @@
+/* TIPOGRAFIA  */
+@font-face {
+    
+   
+    font-family: 'Null-Normal'; /* Nombre personalizado de la fuente */
+        src: url('media/Null-Normal.ttf') format('truetype'); /* Ruta al archivo de la fuente */
+    }
+
+
+/* QUE NO CAMBIE EL TAMAÑO LAS COSAS  */
+*{
+    box-sizing: border-box;
+}
+
+/* TAMAÑOS FUENTES  */
+h1{font-size: 3.5em;
+    font-family: 'Null-normal';
+}
+h2{font-size: 2em};
+
+
+/* SECCIONES  */
+body{
+font-family: 'Null-normal';
+margin: 0;
+
+}
+
+.PRUEBA{
+    size: 50%;
+}
+/* BOTONES  */
+
+
+/* IMAGEN  */
+
+.imagen-resize {
+    width: 100%; /* Ajusta el ancho a 200 píxeles */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    align-content: center;
+    
+}
